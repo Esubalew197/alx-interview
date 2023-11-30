@@ -3,6 +3,7 @@
 Pascal Trangle
 """
 
+
 def pascal_triangle(n):
     '''
     Creates a list of lists of integers in a Pascal's triangle
@@ -22,3 +23,4 @@ def pascal_triangle(n):
                 row.append(1)
                 res.append(row)
         return res
+    
